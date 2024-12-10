@@ -45,8 +45,6 @@ p {
 
 /* ----- Custom Buttons Start Here ----- */
 /* Transparent Gradient Button Style */
-
-/* Transparent Gradient Button Style */
 .gradient_button_transparent a {
 	text-transform: uppercase !important;
 	color: #fff !important;
@@ -119,7 +117,6 @@ p {
 .gradient_button_solid_alternative:hover a {
 	color: #120329 !important
 }
-
 
 /* --------- End --------- */
 
