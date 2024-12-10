@@ -44,6 +44,7 @@ p {
 
 
 /* ----- Custom Buttons Start Here ----- */
+
 /* Transparent Gradient Button Style */
 .gradient_button_transparent a {
 	text-transform: uppercase !important;
@@ -63,12 +64,13 @@ p {
 }
 
 /* Transparent Alternate Button Style */
+/* Transparent Alternate Button Style */
 .gradient_button_transparent_alternative a {
 	text-transform: uppercase !important;
 	color: #fff !important;
 	border-style: solid !important;
 	border: solid 2px transparent;
-	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_accent)) !important;
 	background-origin: border-box !important;
 	background-clip: content-box, border-box !important;
 	box-shadow: 2px 1000px 1px #120329 inset !important;
@@ -80,25 +82,6 @@ p {
 	transition: all ease-in-out 0.3s;
 }
 
-/* Solid Gradient Button Style */
-.gradient_button_solid a {
-	line-height: 0;
-	text-transform: uppercase !important;
-	color: #fff !important;
-	border-style: solid !important;
-	border: solid 2px transparent;
-	border-radius: 5px;
-	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
-	background-origin: border-box !important;
-	background-clip: content-box, border-box !important;
-	transition: all ease-in-out 0.3s;
-	box-shadow: none !important;
-}
-
-.gradient_button_solid:hover a {
-	color: #120329 !important
-}
-
 /* Solid Alternative Gradient Button Style */
 .gradient_button_solid_alternative a {
 	line-height: 0;
@@ -107,7 +90,7 @@ p {
 	border-style: solid !important;
 	border: solid 2px transparent;
 	border-radius: 5px;
-	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_accent)) !important;
 	background-origin: border-box !important;
 	background-clip: content-box, border-box !important;
 	transition: all ease-in-out 0.3s;
