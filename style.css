@@ -153,3 +153,10 @@ p {
 }
 
 /* --------- End --------- */
+
+/* ----- Elementor Component Styling Overrides ----- */
+
+/* Elementor List Padding Bug */
+.elementor-icon-list-items {
+	padding-inline-start: 0px !important;
+}
