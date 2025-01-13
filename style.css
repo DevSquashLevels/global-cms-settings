@@ -54,7 +54,7 @@ border: solid 2px transparent;
 background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
 background-origin: border-box !important;
 background-clip: content-box, border-box !important;
-box-shadow: 2px 1000px 1px #120329 inset !important;
+box-shadow: 0px 1000px 1px var(--e-global-color-uicore_light) inset !important;
 transition: all ease-in-out 0.3s;
 }
 
@@ -72,7 +72,7 @@ border: solid 2px transparent;
 background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
 background-origin: border-box !important;
 background-clip: content-box, border-box !important;
-box-shadow: 2px 1000px 1px #120329 inset !important;
+box-shadow: 0px 1000px 1px var(--e-global-color-uicore_light) inset !important;
 transition: all ease-in-out 0.3s;
 }
 
