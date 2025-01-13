@@ -166,3 +166,7 @@ margin-top: 1em !important;
 #elementor-icon-list-items {
 padding-inline-start: 0px !important;
 }
+
+#elementor-icon-list-items ul.elementor-icon-list-items {
+    padding: 0px;
+}
