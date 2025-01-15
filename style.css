@@ -170,3 +170,13 @@ padding-inline-start: 0px !important;
 #elementor-icon-list-items ul.elementor-icon-list-items {
     padding: 0px;
 }
+
+/* ----- Elementor Component Styling Overrides ----- */
+
+/* Update Pill Colors on Product Page
+.sc-pill-option__button, a.sc-pill-option__button {
+    border-color: var(--e-global-color-uicore_white) !important;
+    color: var(--e-global-color-uicore_white) !important;
+}
+
+/* --------- End --------- */
