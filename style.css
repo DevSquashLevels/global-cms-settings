@@ -168,25 +168,25 @@ padding-inline-start: 0px !important;
 }
 
 #elementor-icon-list-items ul.elementor-icon-list-items {
-    padding: 0px;
+padding: 0px;
 }
 
 /* ----- Elementor Component Styling Overrides ----- */
 
 /* Update Pill Colors on Product Page */
 .sc-pill-option__button, a.sc-pill-option__button {
-    border-color: var(--e-global-color-uicore_white) !important;
-    color: var(--e-global-color-uicore_white) !important;
+border-color: var(--e-global-color-uicore_white) !important;
+color: var(--e-global-color-uicore_white) !important;
 }
 
 /* Add Space Between the Variation Blocks */
 .wp-block-surecart-product-variant-pills {
-    padding-top: 15px !important;
+padding-top: 15px !important;
 }
 
 /* Ensure Add To Cart Button Aligns correctly */
 .add_to_cart_group {
-        align-items: flex-end;
+align-items: flex-end !important;
 }
 
 /* --------- End --------- */
