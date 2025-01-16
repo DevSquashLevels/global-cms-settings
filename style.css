@@ -171,7 +171,9 @@ padding-inline-start: 0px !important;
 padding: 0px;
 }
 
-/* ----- Elementor Component Styling Overrides ----- */
+/* --------- End --------- */
+
+/* ----- SureCart Component Styling Overrides ----- */
 
 /* Update Pill Colors on Product Page */
 .sc-pill-option__button, a.sc-pill-option__button {
@@ -187,6 +189,29 @@ padding-top: 15px !important;
 /* Ensure Add To Cart Button Aligns correctly */
 .add_to_cart_group {
 align-items: flex-end !important;
+}
+
+/* Update Pill Colors on Product Page */
+.sc-pill-option__button, a.sc-pill-option__button {
+border-color: var(--e-global-color-uicore_white) !important;
+color: var(--e-global-color-uicore_white) !important;
+}
+
+/* Add Space Between the Variation Blocks */
+.wp-block-surecart-product-variant-pills {
+padding-top: 15px !important;
+}
+
+/* Ensure Add To Cart Button Aligns correctly */
+.add_to_cart_group {
+align-items: flex-end !important;
+}
+
+/* Update Root Colors For Overrides */
+:root:root {
+  --sc-input-label-color: #7689a4;
+	--sc-input-color: #7689a4;
+	--sc-input-help-text-color: #7689a4;
 }
 
 /* --------- End --------- */
