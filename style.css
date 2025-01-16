@@ -209,9 +209,23 @@ align-items: flex-end !important;
 
 /* Update Root Colors For Overrides */
 :root:root {
-  --sc-input-label-color: #7689a4;
-	--sc-input-color: #7689a4;
-	--sc-input-help-text-color: #7689a4;
+--sc-input-label-color: #7689a4;
+--sc-input-color: #7689a4;
+--sc-input-help-text-color: #7689a4;
+}
+
+.surecart-theme-dark {
+--sc-color-gray-50: fff;
+--sc-color-gray-100: #fff;
+--sc-color-gray-200: #fff;
+--sc-color-gray-300: #fff;
+--sc-color-gray-400: #fff;
+--sc-color-gray-500: #fff;
+--sc-color-gray-600: #fff;
+--sc-color-gray-700: #fff;
+--sc-color-gray-800: #120428;
+--sc-color-gray-900: #120428;
+--sc-color-gray-950: #291842;
 }
 
 /* --------- End --------- */
