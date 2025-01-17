@@ -82,23 +82,26 @@ transition: all ease-in-out 0.3s;
 }
 
 /* Solid Gradient Button Style */
-.gradient_button_solid a {
-line-height: 0;
-text-transform: uppercase !important;
-color: #fff !important;
-border-style: solid !important;
-border: solid 2px transparent;
-border-radius: 5px;
-background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
-background-origin: border-box !important;
-background-clip: content-box, border-box !important;
-transition: all ease-in-out 0.3s;
-box-shadow: none !important;
+.gradient_button_solid a,
+.uicore-custom-area a {
+    line-height: 0;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    border-style: solid !important;
+    border: solid 2px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
+    background-origin: border-box !important;
+    background-clip: content-box, border-box !important;
+    transition: all ease-in-out 0.3s;
+    box-shadow: none !important;
 }
 
-.gradient_button_solid:hover a {
-color: #120329 !important
+.gradient_button_solid:hover a,
+.uicore-custom-area:hover a {
+    color: #120329 !important;
 }
+
 
 /* Solid Alternative Gradient Button Style */
 .gradient_button_solid_alternative a {
