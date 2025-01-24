@@ -210,25 +210,22 @@ padding-top: 15px !important;
 align-items: flex-end !important;
 }
 
-/* Update Root Colors For Overrides */
-:root:root {
---sc-input-label-color: #7689a4;
---sc-input-color: #7689a4;
---sc-input-help-text-color: #7689a4;
+/* --------- End --------- */
+
+/* SureCart Shop Page Image Styling */
+
+/* Add Hover Styling to Shop Image Grid */
+.wp-block-cover__image-background {
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  overflow: hidden;
+}
+.wp-block-cover:hover .wp-block-cover__image-background {
+  transform: scale(1.1);
 }
 
-.surecart-theme-dark {
---sc-color-gray-50: fff;
---sc-color-gray-100: #fff;
---sc-color-gray-200: #fff;
---sc-color-gray-300: #fff;
---sc-color-gray-400: #fff;
---sc-color-gray-500: #fff;
---sc-color-gray-600: #fff;
---sc-color-gray-700: #fff;
---sc-color-gray-800: #120428;
---sc-color-gray-900: #120428;
---sc-color-gray-950: #291842;
+/* Add Border Radius to WP Block Accordion */
+.wp-block-details {
+    border-radius: 6px;
 }
 
 /* --------- End --------- */
