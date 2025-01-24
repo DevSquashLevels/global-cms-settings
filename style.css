@@ -225,7 +225,7 @@ align-items: flex-end !important;
 
 /* Add Border Radius to WP Block Accordion */
 .wp-block-details {
-    border-radius: 6px;
+    border-radius: 6px !important;
 }
 
 /* --------- End --------- */
