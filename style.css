@@ -40,10 +40,6 @@ p {
 font-weight: 300 !important;
 }
 
-.ui-menu-item-wrapper {
-font-style: italic !important;
-}
-
 /* Ensure highlighted font headlines wrap */
 
 .ui-e-headline-text .ui-e-headline-highlighted {
