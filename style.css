@@ -216,6 +216,11 @@ padding-top: 15px !important;
 align-items: flex-end !important;
 }
 
+/* Set image thumbnail as */
+.sc-image-slider .sc-image-slider__thumbs .swiper-slide img {
+	object-fit: fill!important;
+	height: 150px !important;
+}
 /* --------- End --------- */
 
 /* SureCart Shop Page Image Styling */
