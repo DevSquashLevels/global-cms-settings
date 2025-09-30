@@ -1,49 +1,49 @@
 /* ----- Custom Fonts Start Here ----- */
 
 h1 {
-font-weight: 600 !important;
-font-style: italic !important;
-text-transform: uppercase !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+    text-transform: uppercase !important;
 }
 
 h2 {
-font-weight: 400 !important;
-font-style: italic !important;
-text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    text-transform: uppercase !important;
 }
 
 h3 {
-font-weight: 400 !important;
-font-style: italic !important;
-text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    text-transform: uppercase !important;
 }
 
 h4 {
-font-weight: 400 !important;
-font-style: italic !important;
-text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    text-transform: uppercase !important;
 }
 
 h5 {
-font-weight: 400 !important;
-font-style: italic !important;
-text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    text-transform: uppercase !important;
 }
 
 h6 {
-font-weight: 300 !important;
-font-style: italic !important;
-text-transform: uppercase !important;
+    font-weight: 300 !important;
+    font-style: italic !important;
+    text-transform: uppercase !important;
 }
 
 p {
-font-weight: 300 !important;
+    font-weight: 300 !important;
 }
 
 /* Ensure highlighted font headlines wrap */
 
 .ui-e-headline-text .ui-e-headline-highlighted {
-white-space: normal;
+    white-space: normal;
 }
 
 /* --------- End --------- */
@@ -53,79 +53,79 @@ white-space: normal;
 
 /* Transparent Gradient Button Style */
 .gradient_button_transparent a {
-text-transform: uppercase !important;
-color: #fff !important;
-border-style: solid !important;
-border: solid 2px transparent;
-background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
-background-origin: border-box !important;
-background-clip: content-box, border-box !important;
-box-shadow: 0px 1000px 1px var(--e-global-color-uicore_light) inset !important;
-transition: all ease-in-out 0.3s;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    border-style: solid !important;
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
+    background-origin: border-box !important;
+    background-clip: content-box, border-box !important;
+    box-shadow: 0px 1000px 1px var(--e-global-color-uicore_light) inset !important;
+    transition: all ease-in-out 0.3s;
 }
 
 .gradient_button_transparent a:hover {
-box-shadow: none !important;
-transition: all ease-in-out 0.3s;
+    box-shadow: none !important;
+    transition: all ease-in-out 0.3s;
 }
 
 /* Transparent Alternate Button Style */
 .gradient_button_transparent_alternative a {
-text-transform: uppercase !important;
-color: #fff !important;
-border-style: solid !important;
-border: solid 2px transparent;
-background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
-background-origin: border-box !important;
-background-clip: content-box, border-box !important;
-box-shadow: 0px 1000px 1px var(--e-global-color-uicore_light) inset !important;
-transition: all ease-in-out 0.3s;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    border-style: solid !important;
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
+    background-origin: border-box !important;
+    background-clip: content-box, border-box !important;
+    box-shadow: 0px 1000px 1px var(--e-global-color-uicore_light) inset !important;
+    transition: all ease-in-out 0.3s;
 }
 
 .gradient_button_transparent_alternative a:hover {
-box-shadow: none !important;
-transition: all ease-in-out 0.3s;
+    box-shadow: none !important;
+    transition: all ease-in-out 0.3s;
 }
 
 /* Solid Gradient Button Style */
 .gradient_button_solid a,
 .uicore-custom-area a {
-line-height: 0;
-text-transform: uppercase !important;
-color: #fff !important;
-border-style: solid !important;
-border: solid 2px transparent;
-border-radius: 5px;
-background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
-background-origin: border-box !important;
-background-clip: content-box, border-box !important;
-transition: all ease-in-out 0.3s;
-box-shadow: none !important;
+    line-height: 0;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    border-style: solid !important;
+    border: solid 2px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
+    background-origin: border-box !important;
+    background-clip: content-box, border-box !important;
+    transition: all ease-in-out 0.3s;
+    box-shadow: none !important;
 }
 
 .gradient_button_solid:hover a,
 .uicore-custom-area:hover a {
-color: #120329 !important;
+    color: #120329 !important;
 }
 
 
 /* Solid Alternative Gradient Button Style */
 .gradient_button_solid_alternative a {
-line-height: 0;
-text-transform: uppercase !important;
-color: #fff !important;
-border-style: solid !important;
-border: solid 2px transparent;
-border-radius: 5px;
-background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
-background-origin: border-box !important;
-background-clip: content-box, border-box !important;
-transition: all ease-in-out 0.3s;
-box-shadow: none !important;
+    line-height: 0;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    border-style: solid !important;
+    border: solid 2px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(110deg, var(--e-global-color-uicore_primary), var(--e-global-color-uicore_secondary)) !important;
+    background-origin: border-box !important;
+    background-clip: content-box, border-box !important;
+    transition: all ease-in-out 0.3s;
+    box-shadow: none !important;
 }
 
 .gradient_button_solid_alternative:hover a {
-color: #120329 !important
+    color: #120329 !important
 }
 
 /* --------- End --------- */
@@ -133,7 +133,7 @@ color: #120329 !important
 /* Pricing Switcher Display Grid */
 
 #Yearly, #Monthly {
-display: grid !important;	
+    display: grid !important;	
 }
 
 
@@ -141,13 +141,13 @@ display: grid !important;
 
 /* Reduce Space Above Title */
 .uicore-post-info {
-margin-top: 1em !important;	
+    margin-top: 1em !important;	
 }
 
 /* Reduce Space Above and Below H Tags */
 .wp-block-heading {
-margin-top: 1.5em !important;
-margin-bottom: 0.5em !important;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.5em !important;
 }
 
 /* Update Blog Post Area Styling */
@@ -160,19 +160,19 @@ margin-bottom: 0.5em !important;
 
 /* Blog Sidebar Spacing */
 .uicore-sidebar ul {
-padding: 0px !important;
+    padding: 0px !important;
 }
 
 .wp-block-latest-posts__post-title {
-margin-top: 1em !important;
+    margin-top: 1em !important;
 }
 
 .wp-block-latest-posts__post-title:hover {
-color: inherit !important;
+    color: inherit !important;
 }
 
 .wp-block-latest-posts__post-date {
-margin-top: 1em !important;
+    margin-top: 1em !important;
 }
 
 /* --------- End --------- */
@@ -181,11 +181,11 @@ margin-top: 1em !important;
 
 /* Elementor List Padding Bug */
 #elementor-icon-list-items {
-padding-inline-start: 0px !important;
+    padding-inline-start: 0px !important;
 }
 
 #elementor-icon-list-items ul.elementor-icon-list-items {
-padding: 0px;
+    padding: 0px;
 }
 
 /* --------- End --------- */
@@ -194,40 +194,40 @@ padding: 0px;
 
 /* Update Pill Colors on Product Page */
 .sc-pill-option__button, a.sc-pill-option__button {
-border-color: var(--e-global-color-uicore_white) !important;
-color: var(--e-global-color-uicore_white) !important;
+    border-color: var(--e-global-color-uicore_white) !important;
+    color: var(--e-global-color-uicore_white) !important;
 }
 
 /* Add Space Between the Variation Blocks */
 .wp-block-surecart-product-variant-pills {
-padding-top: 15px !important;
+    padding-top: 15px !important;
 }
 
 /* Ensure Add To Cart Button Aligns correctly */
 .add_to_cart_group {
-align-items: flex-end !important;
+    align-items: flex-end !important;
 }
 
 /* Update Pill Colors on Product Page */
 .sc-pill-option__button, a.sc-pill-option__button {
-border-color: var(--e-global-color-uicore_white) !important;
-color: var(--e-global-color-uicore_white) !important;
+    border-color: var(--e-global-color-uicore_white) !important;
+    color: var(--e-global-color-uicore_white) !important;
 }
 
 /* Add Space Between the Variation Blocks */
 .wp-block-surecart-product-variant-pills {
-padding-top: 15px !important;
+    padding-top: 15px !important;
 }
 
 /* Ensure Add To Cart Button Aligns correctly */
 .add_to_cart_group {
-align-items: flex-end !important;
+    align-items: flex-end !important;
 }
 
 /* Set image thumbnail as */
 .sc-image-slider .sc-image-slider__thumbs .swiper-slide img {
-	object-fit: fill!important;
-	height: 150px !important;
+    object-fit: fill!important;
+    height: 150px !important;
 }
 /* --------- End --------- */
 
@@ -235,16 +235,47 @@ align-items: flex-end !important;
 
 /* Add Hover Styling to Shop Image Grid */
 .wp-block-cover__image-background {
-transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
-overflow: hidden;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    overflow: hidden;
 }
 .wp-block-cover:hover .wp-block-cover__image-background {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* Add Border Radius to WP Block Accordion */
 .wp-block-details {
-border-radius: 6px !important;
+    border-radius: 6px !important;
 }
 
 /* --------- End --------- */
+
+/* ----- GTranslate Component Styling Overrides ----- */
+
+.gt_float_switcher .gt_options a {
+    padding: 10px !important;
+    font-size: 16px !important;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gt_float_switcher .gt_options a:hover {
+    background: var(--e-global-color-uicore_primary) !important;
+}
+
+.gt-current-lang {
+    padding: 5px 10px !important;
+}
+
+.gt-lang-code {
+    font-size: 16px !important;
+    top: 1px !important;
+    color: #000000f2 !important;
+}
+
+.gt_float_switcher img {
+    width: 22px !important;
+}
+/* ----- End ----- */
