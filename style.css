@@ -262,7 +262,7 @@ p {
 }
 
 .gt_float_switcher .gt_options a:hover {
-    background: var(--e-global-color-uicore_primary) !important;
+    background: var(--e-global-color-uicore_secondary) !important;
 }
 
 .gt-current-lang {
