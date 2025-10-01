@@ -259,6 +259,7 @@ p {
     align-content: center;
     align-items: center;
     justify-content: flex-start;
+    transition: color 0s linear !important;
 }
 
 .gt_float_switcher .gt_options a:hover {
