@@ -175,6 +175,10 @@ p {
     margin-top: 1em !important;
 }
 
+.uicore-sidebar-right aside.uicore-sidebar {
+    padding-left: 0px !important;
+}
+
 /* --------- End --------- */
 
 /* ----- Elementor Component Styling Overrides ----- */
