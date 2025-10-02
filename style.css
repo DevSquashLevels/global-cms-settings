@@ -163,6 +163,11 @@ p {
     padding: 0px !important;
 }
 
+/* Add Padding Between Blog Post and Sidebar */
+.uicore.elementor-container.uicore-content-wrapper.uicore-blog-animation {
+    gap: 60px;
+}
+
 .wp-block-latest-posts__post-title {
     margin-top: 1em !important;
 }
