@@ -292,7 +292,7 @@ p {
 
 /* WordPress Blockquote Styling */
 blockquote.wp-block-quote {
-    background-color: var(--e-global-color-uicore_dark) !important;
+    background-color: var(--e-global-color-uicore_secondary) !important;
 }
 
 /* ----- End ----- */
