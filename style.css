@@ -294,6 +294,7 @@ p {
 blockquote.wp-block-quote {
     background-color: var(--e-global-color-uicore_secondary) !important;
     background-blend-mode: soft-light !important;
+    padding: 10% !important;
 }
 
 /* ----- End ----- */
