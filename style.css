@@ -289,3 +289,10 @@ p {
     width: 22px !important;
 }
 /* ----- End ----- */
+
+/* WordPress Blockquote Styling */
+blockquote.wp-block-quote {
+    background-color: var(--e-global-color-uicore_dark) !important;
+}
+
+/* ----- End ----- */
