@@ -210,7 +210,13 @@ button {
   border: none;
   cursor: pointer;
   background-color: var(--color-primary);
-  color: var(--color-secondary);
+  color: var(--color-white);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    linear-gradient(101deg, #4ee7c0, #45d9ff) !important;
+  background-origin: border-box !important;
+  background-clip: content-box, border-box !important;
+  text-transform: uppercase;
 }
 
 button:hover {
