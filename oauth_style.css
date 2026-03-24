@@ -19,7 +19,7 @@ ROOT VARIABLES
   --color-white: #ffffff;
   --color-transparent: #ffffff00;
   --color-grey-light: #eeeeee;
-  --color-grey: #9da7b2;
+  --color-grey: #a4a4a7;
 
   /* Typography */
   --font-primary: "Mongoose", sans-serif;
@@ -81,7 +81,6 @@ h5,
 h6 {
   font-family: var(--font-primary);
   font-weight: 600;
-  margin-bottom: var(--spacing-sm);
   line-height: 1.2;
 }
 
@@ -122,10 +121,14 @@ p {
   text-align: center;
 }
 
-span,
 small,
 label {
   color: var(--color-text);
+}
+
+span {
+  color: var(--color-grey);
+  font-weight: 200;
 }
 
 a {
