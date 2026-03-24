@@ -286,6 +286,7 @@ Or Divider
   text-align: center;
   color: var(--color-grey);
   margin: var(--spacing-md) 0;
+  width: 200px;
 }
 
 .or-divider::before,
