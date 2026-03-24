@@ -81,7 +81,6 @@ h5,
 h6 {
   font-family: var(--font-primary);
   font-weight: 600;
-  color: var(--color-text);
   margin-bottom: var(--spacing-sm);
   line-height: 1.2;
 }
@@ -91,6 +90,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  color: var(--color-primary);
 }
 h3 {
   font-size: 1.75rem;
@@ -251,7 +251,8 @@ CONTAINER
 ========================= */
 .auth_container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 500px;
+  border-radius: 12px;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
   background-color: var(--color-grey-light);
