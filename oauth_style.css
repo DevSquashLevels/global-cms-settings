@@ -8,7 +8,7 @@ ROOT VARIABLES
   --color-accent: #45d9ff;
 
   /* Text */
-  --color-text: #f6f9ff;
+  --color-text: #717182;
 
   /* Backgrounds */
   --color-background: #04162c;
@@ -90,7 +90,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 h3 {
   font-size: 1.75rem;
@@ -109,7 +109,7 @@ h6 {
 TEXT ELEMENTS
 ========================= */
 p {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
   color: var(--color-text);
 }
 
@@ -254,6 +254,6 @@ CONTAINER
   max-width: 500px;
   border-radius: 12px;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: var(--spacing-md);
   background-color: var(--color-grey-light);
 }
