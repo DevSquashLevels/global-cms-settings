@@ -6,32 +6,33 @@ ROOT VARIABLES
   --color-primary: #4ee7c0;
   --color-secondary: #171333;
   --color-accent: #45d9ff;
+  --color-errror: #ff485e;  
 
   /* Text */
   --color-text: #6a6a6ab8;
-
+  
   /* Backgrounds */
   --color-background: #04162c;
   --color-background-blue: #042c54;
-
+  
   /* Custom */
   --color-dark-blue: #1a1a21;
   --color-white: #ffffff;
   --color-transparent: #ffffff00;
   --color-grey-light: #eeeeee;
   --color-grey: #a4a4a7;
-
+  
   /* Typography */
   --font-primary: "Mongoose", sans-serif;
   --font-secondary: "english-grotesque", sans-serif;
   --font-size-base: 16px;
-
+  
   /* Spacing */
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 24px;
-
+  
   /* Borders */
   --border-radius: 6px;
 }
@@ -209,23 +210,30 @@ button {
   border-radius: var(--border-radius);
   border: none;
   cursor: pointer;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   color: var(--color-white);
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
-    linear-gradient(101deg, #4ee7c0, #45d9ff) !important;
-  background-origin: border-box !important;
-  background-clip: content-box, border-box !important;
   text-transform: uppercase;
 }
 
 button:hover {
-  background-color: var(--color-accent);
+  opacity: 0.8;
 }
 
 button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+.gradient_button {
+  background-image:
+  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+  linear-gradient(101deg, #4ee7c0, #45d9ff) !important;
+  background-origin: border-box !important;
+  background-clip: content-box, border-box !important;
+}
+
+.error_button {
+  background-color: var(--color-errror) !important;
 }
 
 /* =========================
