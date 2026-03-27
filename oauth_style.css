@@ -3,7 +3,7 @@ ROOT VARIABLES
 ========================= */
 :root {
   /* Brand */
-  --color-primary: #4ee7c0;
+  --color-primary: #0d0c38;
   --color-secondary: #171333;
   --color-accent: #45d9ff;
   --color-errror: #ff485e;  
@@ -224,13 +224,14 @@ button:disabled {
   cursor: not-allowed;
 }
 
-.gradient_button {
+/* Uncomment to add gradient button style back */
+/* .gradient_button {
   background-image:
   linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
   linear-gradient(101deg, #4ee7c0, #45d9ff) !important;
   background-origin: border-box !important;
   background-clip: content-box, border-box !important;
-}
+} */
 
 .error_button {
   background-color: var(--color-errror) !important;
